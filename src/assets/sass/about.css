@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Об игре */
+.btn-StartAbout {
+  width: 224px;
+  height: 70px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background-color: white;
+  margin-top: 3rem;
+}
+
+.btn-StartAbout:hover {
+  background-color: #E8E8E8;
+}
+
+.my-6 {
+  margin-top: 8rem;
+  margin-bottom: 3.25rem;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 150%;
+}
+
+.about-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=about.css.map */

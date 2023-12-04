@@ -1,0 +1,35 @@
+/* шапка */
+
+.container-fluid {
+    max-width: 1464px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logotip {
+    width: 348px;
+    height: 120px;
+}
+
+.navbar-nav {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    width: 720px;
+}
+
+.header {
+    height: 200px;
+    display: grid;
+}
+
+.stroke1 {
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+#navbarSupportedContent {
+    background-color: white;
+}

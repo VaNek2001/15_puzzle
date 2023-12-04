@@ -1,0 +1,365 @@
+@charset "UTF-8";
+/* шапка */
+.container-fluid {
+  max-width: 1464px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logotip {
+  width: 348px;
+  height: 120px;
+}
+
+.navbar-nav {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  width: 720px;
+}
+
+.header {
+  height: 200px;
+  display: grid;
+}
+
+.stroke1 {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+#navbarSupportedContent {
+  background-color: white;
+}
+
+/* Об игре */
+.btn-StartAbout {
+  width: 224px;
+  height: 70px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background-color: white;
+  margin-top: 3rem;
+}
+
+.btn-StartAbout:hover {
+  background-color: #E8E8E8;
+}
+
+.my-6 {
+  margin-top: 8rem;
+  margin-bottom: 3.25rem;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 150%;
+}
+
+.about-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Правила */
+ol {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.rool-text {
+  padding-left: 3rem;
+}
+
+/* Игра */
+.container1-lvl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container11-lvl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.container2-lvl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container22-lvl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 348px;
+  margin-top: 20px;
+}
+
+.fieldGame {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 472px;
+  height: 472px;
+}
+
+.btn-StartGame {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background-color: white;
+}
+
+.btn-StartGame:hover {
+  background-color: #E8E8E8;
+}
+
+.text-step, .text-timer {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-step-s, .text-timer-t, .text-step-x, .text-timer-x {
+  margin-bottom: 0;
+  margin-left: 18px;
+}
+
+.container-st {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game {
+  margin-bottom: 128px;
+}
+
+.container3-lvl .text-lvl {
+  margin-bottom: 0;
+}
+
+.container3-lvl {
+  display: none;
+}
+
+#btn-StartGameMobile {
+  display: none;
+}
+
+.btn-lvl input[type=radio] {
+  display: none;
+}
+
+.btn-lvl label {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-lvl input[type=radio]:checked + label {
+  background-color: #E8E8E8;
+}
+
+.btn-lvl label:hover {
+  color: #666;
+}
+
+.lvl-text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+/* Подвал */
+.footer {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .about-text {
+  margin-bottom: 0px;
+}
+
+.stroke2 {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+/* Тест */
+.block {
+  background-color: aqua;
+  max-width: 100px;
+}
+
+/* Медиазапрос на ширину 1200 */
+@media only screen and (max-width: 1200px) {
+  .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  p {
+    text-align: justify;
+  }
+}
+/* Медиазапрос на ширину 950 */
+@media only screen and (max-width: 950px) {
+  .img-fieldAbout {
+    display: none;
+  }
+  .row.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-StartAbout {
+    margin-top: 30px;
+  }
+}
+/* Медиазапрос на ширину 750 */
+@media only screen and (max-width: 750px) {
+  .navbar-nav {
+    font-size: 14px;
+  }
+  .logotip {
+    width: 134px;
+    height: 46px;
+  }
+  .header {
+    height: 70px;
+  }
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .my-6 {
+    margin-top: 47px;
+    margin-bottom: 35px;
+    font-size: 36px;
+  }
+  .img-fieldAbout {
+    display: none;
+  }
+  .row.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-StartAbout {
+    margin-top: 30px;
+  }
+  ol {
+    font-size: 14px;
+  }
+  .rool-text {
+    padding-left: 1rem;
+  }
+  .container1-lvl {
+    display: none;
+  }
+  .container2-lvl {
+    display: none;
+  }
+  #btn-StartGameMobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 1px solid #000;
+    display: flex;
+    width: 296px;
+    height: 52px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .container3-lvl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer {
+    height: 45px;
+  }
+  .fieldGame {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 296px;
+    height: 296px;
+  }
+  .btn-StartGame {
+    display: none;
+  }
+  .text-step, .text-timer {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-step-s, .text-timer-t, .text-step-x, .text-timer-x {
+    margin-left: 0px;
+  }
+  .gameStatistic.row.flex-wrap {
+    display: block;
+  }
+  #cl3 {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 272px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container-st {
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .game {
+    margin-bottom: 26px;
+  }
+}/*# sourceMappingURL=style.css.map */
